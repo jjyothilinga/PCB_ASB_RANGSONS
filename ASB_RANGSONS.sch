@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "17 mar 2015"
+Date "18 mar 2015"
 Rev ""
 Comp ""
 Comment1 ""
@@ -405,7 +405,7 @@ F 3 "~" H 4550 5850 60  0000 C CNN
 	1    4550 5850
 	1    0    0    -1  
 $EndComp
-NoConn ~ 4950 6500
+NoConn ~ 4150 6500
 NoConn ~ 4950 5700
 Text Label 5100 4900 0    39   ~ 0
 A
@@ -533,7 +533,7 @@ Text Label 1650 6950 0    39   ~ 0
 GND
 Text Label 1650 6750 0    39   ~ 0
 33
-Text Label 4100 6650 0    39   ~ 0
+Text Label 5050 6500 0    39   ~ 0
 34
 Text Label 9050 1400 0    39   ~ 0
 34
@@ -1005,10 +1005,6 @@ Wire Wire Line
 Wire Wire Line
 	4050 6400 4150 6400
 Wire Wire Line
-	4150 6500 4100 6500
-Wire Wire Line
-	4100 6500 4100 6750
-Wire Wire Line
 	4950 4900 5300 4900
 Wire Wire Line
 	4950 5000 5300 5000
@@ -1329,4 +1325,6 @@ NoConn ~ 7350 1400
 NoConn ~ 7350 1700
 NoConn ~ 7350 1800
 NoConn ~ 7350 1900
+Wire Wire Line
+	4950 6500 5300 6500
 $EndSCHEMATC
