@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "18 mar 2015"
+Date "19 mar 2015"
 Rev ""
 Comp ""
 Comment1 ""
@@ -405,40 +405,40 @@ F 3 "~" H 4550 5850 60  0000 C CNN
 	1    4550 5850
 	1    0    0    -1  
 $EndComp
-NoConn ~ 4150 6500
+NoConn ~ 4950 6500
 NoConn ~ 4950 5700
 Text Label 5100 4900 0    39   ~ 0
-A
+H
 Text Label 5100 5000 0    39   ~ 0
-B
+G
 Text Label 5100 5100 0    39   ~ 0
-C
+F
 Text Label 5100 5200 0    39   ~ 0
-D
+E
 Text Label 5100 5300 0    39   ~ 0
-E
-Text Label 5100 5400 0    39   ~ 0
-F
-Text Label 5100 5500 0    39   ~ 0
-G
-Text Label 5100 5600 0    39   ~ 0
-H
-Text Label 3200 1500 0    39   ~ 0
-A
-Text Label 3200 1600 0    39   ~ 0
-B
-Text Label 3200 1700 0    39   ~ 0
-C
-Text Label 3200 1800 0    39   ~ 0
 D
-Text Label 3200 1900 0    39   ~ 0
-E
-Text Label 3200 2000 0    39   ~ 0
-F
-Text Label 3200 2100 0    39   ~ 0
-G
-Text Label 3200 2200 0    39   ~ 0
+Text Label 5100 5400 0    39   ~ 0
+C
+Text Label 5100 5500 0    39   ~ 0
+B
+Text Label 5100 5600 0    39   ~ 0
+A
+Text Label 3200 1500 0    39   ~ 0
 H
+Text Label 3200 1600 0    39   ~ 0
+G
+Text Label 3200 1700 0    39   ~ 0
+F
+Text Label 3200 1800 0    39   ~ 0
+E
+Text Label 3200 1900 0    39   ~ 0
+D
+Text Label 3200 2000 0    39   ~ 0
+C
+Text Label 3200 2100 0    39   ~ 0
+B
+Text Label 3200 2200 0    39   ~ 0
+A
 Text Label 5100 5800 0    39   ~ 0
 VCC
 Text Label 5100 5900 0    39   ~ 0
@@ -533,10 +533,8 @@ Text Label 1650 6950 0    39   ~ 0
 GND
 Text Label 1650 6750 0    39   ~ 0
 33
-Text Label 5050 6500 0    39   ~ 0
-34
-Text Label 9050 1400 0    39   ~ 0
-34
+Text Label 4100 6700 0    39   ~ 0
+MMD_CONTROL
 $Comp
 L ULN2803 U4
 U 1 1 5507E1C1
@@ -1326,5 +1324,9 @@ NoConn ~ 7350 1700
 NoConn ~ 7350 1800
 NoConn ~ 7350 1900
 Wire Wire Line
-	4950 6500 5300 6500
+	4150 6500 4100 6500
+Wire Wire Line
+	4100 6500 4100 6900
+Text Label 9050 1400 0    39   ~ 0
+MMD_CONTROL
 $EndSCHEMATC
