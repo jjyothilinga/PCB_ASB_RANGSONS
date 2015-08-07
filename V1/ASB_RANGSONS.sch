@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "19 mar 2015"
+Date "7 aug 2015"
 Rev ""
 Comp ""
 Comment1 ""
@@ -397,31 +397,31 @@ $EndComp
 $Comp
 L CONN_17X2 P1
 U 1 1 5507DB5A
-P 4550 5850
-F 0 "P1" H 4550 6900 60  0000 C CNN
-F 1 "MMD_FRC_34PIN" V 4550 5850 50  0000 C CNN
-F 2 "~" H 4550 5850 60  0000 C CNN
-F 3 "~" H 4550 5850 60  0000 C CNN
-	1    4550 5850
+P 4550 5750
+F 0 "P1" H 4550 6800 60  0000 C CNN
+F 1 "MMD_FRC_34PIN" V 4550 5750 50  0000 C CNN
+F 2 "~" H 4550 5750 60  0000 C CNN
+F 3 "~" H 4550 5750 60  0000 C CNN
+	1    4550 5750
 	1    0    0    -1  
 $EndComp
-NoConn ~ 4950 6500
-NoConn ~ 4950 5700
-Text Label 5100 4900 0    39   ~ 0
+NoConn ~ 4950 4800
+NoConn ~ 4950 5600
+Text Label 5100 5700 0    39   ~ 0
 H
-Text Label 5100 5000 0    39   ~ 0
+Text Label 5100 5800 0    39   ~ 0
 G
-Text Label 5100 5100 0    39   ~ 0
+Text Label 5100 5900 0    39   ~ 0
 F
-Text Label 5100 5200 0    39   ~ 0
+Text Label 5100 6000 0    39   ~ 0
 E
-Text Label 5100 5300 0    39   ~ 0
+Text Label 5100 6100 0    39   ~ 0
 D
-Text Label 5100 5400 0    39   ~ 0
+Text Label 5100 6200 0    39   ~ 0
 C
-Text Label 5100 5500 0    39   ~ 0
+Text Label 5100 6300 0    39   ~ 0
 B
-Text Label 5100 5600 0    39   ~ 0
+Text Label 5100 6400 0    39   ~ 0
 A
 Text Label 3200 1500 0    39   ~ 0
 H
@@ -439,13 +439,13 @@ Text Label 3200 2100 0    39   ~ 0
 B
 Text Label 3200 2200 0    39   ~ 0
 A
-Text Label 5100 5800 0    39   ~ 0
+Text Label 5100 5200 0    39   ~ 0
 VCC
-Text Label 5100 5900 0    39   ~ 0
+Text Label 5100 5300 0    39   ~ 0
 GND
-Text Label 5100 6000 0    39   ~ 0
+Text Label 5100 5400 0    39   ~ 0
 GND
-Text Label 5100 6100 0    39   ~ 0
+Text Label 5100 5500 0    39   ~ 0
 VCC
 Text Label 3200 4300 0    39   ~ 0
 1A
@@ -533,7 +533,7 @@ Text Label 1650 6950 0    39   ~ 0
 GND
 Text Label 1650 6750 0    39   ~ 0
 33
-Text Label 4100 6700 0    39   ~ 0
+Text Label 4100 4600 0    39   ~ 0
 MMD_CONTROL
 $Comp
 L ULN2803 U4
@@ -605,17 +605,17 @@ Text Notes 2000 3350 0    60   ~ 0
 MMD DATA \n
 Text Notes 2100 7650 0    60   ~ 0
 MMD DIGIT SELECTION\n
-Text Label 5100 6200 0    39   ~ 0
+Text Label 5100 4900 0    39   ~ 0
 20
-Text Label 5100 6300 0    39   ~ 0
+Text Label 5100 5000 0    39   ~ 0
 21
-Text Label 5100 6400 0    39   ~ 0
+Text Label 5100 5100 0    39   ~ 0
 22
-Text Label 5250 6200 0    39   ~ 0
+Text Label 5250 4900 0    39   ~ 0
 RE0
-Text Label 5250 6300 0    39   ~ 0
+Text Label 5250 5000 0    39   ~ 0
 RE1
-Text Label 5250 6400 0    39   ~ 0
+Text Label 5250 5100 0    39   ~ 0
 RE2
 Text Label 1450 4300 0    39   ~ 0
 RE3
@@ -749,6 +749,111 @@ F 3 "~" H 7500 3700 60  0000 C CNN
 	1    7500 3700
 	1    0    0    -1  
 $EndComp
+Text Label 6700 3500 0    39   ~ 0
+VCC
+Text Label 6700 3900 0    39   ~ 0
+GND
+Text Label 6700 3600 0    39   ~ 0
+RG2
+Text Label 6700 3700 0    39   ~ 0
+RG1
+Text Label 6950 3700 0    39   ~ 0
+RX
+Text Label 6950 3600 0    39   ~ 0
+TX
+Text Label 10050 2000 0    39   ~ 0
+VCC
+Text Label 10050 1900 0    39   ~ 0
+GND
+Text Label 9350 4300 0    39   ~ 0
+RJ0
+Text Label 9350 4200 0    39   ~ 0
+RJ1
+Text Label 9350 3700 0    39   ~ 0
+RJ6
+Text Label 9350 3600 0    39   ~ 0
+RJ7
+Text Label 9350 4100 0    39   ~ 0
+RJ2
+Text Label 9350 4000 0    39   ~ 0
+RJ3
+Text Label 9350 3900 0    39   ~ 0
+RJ4
+Text Label 9350 3800 0    39   ~ 0
+RJ5
+Text Label 10400 3600 0    39   ~ 0
+RH0
+Text Label 10400 3700 0    39   ~ 0
+RH1
+Text Label 10400 3800 0    39   ~ 0
+RH2
+Text Label 10400 3900 0    39   ~ 0
+RH3
+Text Label 10400 4000 0    39   ~ 0
+RH4
+Text Label 10400 4100 0    39   ~ 0
+RH5
+Text Label 10400 4200 0    39   ~ 0
+RH6
+Text Label 10400 4300 0    39   ~ 0
+RH7
+NoConn ~ 9250 1800
+NoConn ~ 9250 1900
+NoConn ~ 9250 2100
+NoConn ~ 9250 2200
+NoConn ~ 9250 2300
+NoConn ~ 9250 2400
+NoConn ~ 9250 2500
+NoConn ~ 9250 2600
+NoConn ~ 9250 2700
+NoConn ~ 10300 2200
+NoConn ~ 9250 1200
+NoConn ~ 9250 1300
+NoConn ~ 9250 1500
+NoConn ~ 9250 1600
+NoConn ~ 8350 1600
+NoConn ~ 8350 1700
+NoConn ~ 8350 1800
+NoConn ~ 8350 1900
+Text Label 8150 2800 0    39   ~ 0
+RJ4
+Text Label 8150 2900 0    39   ~ 0
+RJ5
+NoConn ~ 8350 2200
+NoConn ~ 8350 2300
+NoConn ~ 8350 2400
+NoConn ~ 8350 2500
+NoConn ~ 8350 2600
+NoConn ~ 8350 2700
+NoConn ~ 7100 3800
+Text Label 9100 1000 0    39   ~ 0
+RJ6
+Text Label 9100 1100 0    39   ~ 0
+RJ7
+Text Label 8150 1200 0    39   ~ 0
+RF1
+NoConn ~ 8350 1300
+Text Label 1000 1600 0    39   ~ 0
+RF7
+Text Label 1000 1700 0    39   ~ 0
+RF6
+Text Label 1000 1800 0    39   ~ 0
+RF5
+Text Label 1000 1900 0    39   ~ 0
+RF4
+Text Label 1000 2000 0    39   ~ 0
+RF3
+Text Label 1000 2100 0    39   ~ 0
+RF2
+Text Label 1000 2200 0    39   ~ 0
+RF1
+NoConn ~ 1450 1500
+NoConn ~ 7350 1400
+NoConn ~ 7350 1700
+NoConn ~ 7350 1800
+NoConn ~ 7350 1900
+Text Label 9050 1400 0    39   ~ 0
+MMD_CONTROL
 Wire Wire Line
 	7350 1000 7150 1000
 Wire Wire Line
@@ -1003,21 +1108,7 @@ Wire Wire Line
 Wire Wire Line
 	4050 6400 4150 6400
 Wire Wire Line
-	4950 4900 5300 4900
-Wire Wire Line
-	4950 5000 5300 5000
-Wire Wire Line
-	4950 5100 5300 5100
-Wire Wire Line
-	4950 5200 5300 5200
-Wire Wire Line
-	4950 5300 5300 5300
-Wire Wire Line
-	4950 5400 5300 5400
-Wire Wire Line
-	4950 5500 5300 5500
-Wire Wire Line
-	4950 5600 5300 5600
+	4950 5700 5300 5700
 Wire Wire Line
 	4950 5800 5300 5800
 Wire Wire Line
@@ -1032,6 +1123,20 @@ Wire Wire Line
 	4950 6300 5300 6300
 Wire Wire Line
 	4950 6400 5300 6400
+Wire Wire Line
+	4950 5200 5300 5200
+Wire Wire Line
+	4950 5300 5300 5300
+Wire Wire Line
+	4950 5400 5300 5400
+Wire Wire Line
+	4950 5500 5300 5500
+Wire Wire Line
+	4950 4900 5300 4900
+Wire Wire Line
+	4950 5000 5300 5000
+Wire Wire Line
+	4950 5100 5300 5100
 Wire Wire Line
 	2450 5850 2450 5700
 Wire Wire Line
@@ -1185,18 +1290,6 @@ Wire Wire Line
 	7100 3700 6650 3700
 Wire Wire Line
 	7100 3900 6650 3900
-Text Label 6700 3500 0    39   ~ 0
-VCC
-Text Label 6700 3900 0    39   ~ 0
-GND
-Text Label 6700 3600 0    39   ~ 0
-RG2
-Text Label 6700 3700 0    39   ~ 0
-RG1
-Text Label 6950 3700 0    39   ~ 0
-RX
-Text Label 6950 3600 0    39   ~ 0
-TX
 Wire Wire Line
 	9750 6900 9750 7100
 Wire Wire Line
@@ -1216,117 +1309,24 @@ Wire Wire Line
 	10300 2000 10050 2000
 Wire Wire Line
 	10300 1900 10050 1900
-Text Label 10050 2000 0    39   ~ 0
-VCC
-Text Label 10050 1900 0    39   ~ 0
-GND
-Text Label 9350 4300 0    39   ~ 0
-RJ0
-Text Label 9350 4200 0    39   ~ 0
-RJ1
-Text Label 9350 3700 0    39   ~ 0
-RJ6
-Text Label 9350 3600 0    39   ~ 0
-RJ7
-Text Label 9350 4100 0    39   ~ 0
-RJ2
-Text Label 9350 4000 0    39   ~ 0
-RJ3
-Text Label 9350 3900 0    39   ~ 0
-RJ4
-Text Label 9350 3800 0    39   ~ 0
-RJ5
-Text Label 10400 3600 0    39   ~ 0
-RH0
-Text Label 10400 3700 0    39   ~ 0
-RH1
-Text Label 10400 3800 0    39   ~ 0
-RH2
-Text Label 10400 3900 0    39   ~ 0
-RH3
-Text Label 10400 4000 0    39   ~ 0
-RH4
-Text Label 10400 4100 0    39   ~ 0
-RH5
-Text Label 10400 4200 0    39   ~ 0
-RH6
-Text Label 10400 4300 0    39   ~ 0
-RH7
 Wire Wire Line
 	9250 2000 9050 2000
-NoConn ~ 9250 1800
-NoConn ~ 9250 1900
-NoConn ~ 9250 2100
-NoConn ~ 9250 2200
-NoConn ~ 9250 2300
-NoConn ~ 9250 2400
-NoConn ~ 9250 2500
-NoConn ~ 9250 2600
-NoConn ~ 9250 2700
-NoConn ~ 10300 2200
-NoConn ~ 9250 1200
-NoConn ~ 9250 1300
-NoConn ~ 9250 1500
-NoConn ~ 9250 1600
-NoConn ~ 8350 1600
-NoConn ~ 8350 1700
-NoConn ~ 8350 1800
-NoConn ~ 8350 1900
-Text Label 8150 2800 0    39   ~ 0
-RJ4
-Text Label 8150 2900 0    39   ~ 0
-RJ5
 Wire Wire Line
 	8350 2900 8100 2900
 Wire Wire Line
 	8350 2800 8100 2800
-NoConn ~ 8350 2200
-NoConn ~ 8350 2300
-NoConn ~ 8350 2400
-NoConn ~ 8350 2500
-NoConn ~ 8350 2600
-NoConn ~ 8350 2700
-NoConn ~ 7100 3800
 Wire Wire Line
 	9250 1000 9050 1000
 Wire Wire Line
 	9250 1100 9050 1100
-Text Label 9100 1000 0    39   ~ 0
-RJ6
-Text Label 9100 1100 0    39   ~ 0
-RJ7
 Wire Wire Line
 	3100 5000 3350 5000
 Wire Wire Line
 	3350 5000 3350 5600
 Wire Wire Line
 	8350 1200 8100 1200
-Text Label 8150 1200 0    39   ~ 0
-RF1
-NoConn ~ 8350 1300
-Text Label 1000 1600 0    39   ~ 0
-RF7
-Text Label 1000 1700 0    39   ~ 0
-RF6
-Text Label 1000 1800 0    39   ~ 0
-RF5
-Text Label 1000 1900 0    39   ~ 0
-RF4
-Text Label 1000 2000 0    39   ~ 0
-RF3
-Text Label 1000 2100 0    39   ~ 0
-RF2
-Text Label 1000 2200 0    39   ~ 0
-RF1
-NoConn ~ 1450 1500
-NoConn ~ 7350 1400
-NoConn ~ 7350 1700
-NoConn ~ 7350 1800
-NoConn ~ 7350 1900
 Wire Wire Line
-	4150 6500 4100 6500
+	4150 4800 4100 4800
 Wire Wire Line
-	4100 6500 4100 6900
-Text Label 9050 1400 0    39   ~ 0
-MMD_CONTROL
+	4100 4800 4100 4500
 $EndSCHEMATC
